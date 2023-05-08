@@ -7,3 +7,25 @@
 body{
     font-family: 'GFS Didot', serif;
 }
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden; /* Para que el contenedor no se desborde */
+    padding: 60 px 0; /* Para que el contenido no se pegue a los bordes */
+}
+/* Header */
+
+header{
+    height: 100%;
+    background: #bc4e9c;
+    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/fondo.jpg);
+    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/fondo.jpg);
+    background-size: cover; /* Para que la imagen se ajuste al tamaño del contenedor */
+    background-position: center; /* Para que la imagen se centre */
+    background-attachment: fixed; /* Para que la imagen no se mueva */
+    background-repeat: no-repeat; /* Para que no se repita la imagen */
+    overflow: hidden;
+    padding: 20px 0;
+}
