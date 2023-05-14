@@ -66,6 +66,10 @@ header{
     transform: translateX(110%);
 }
 
+.spread{
+    transform: translateX(0);
+}
+
 /* Para que el menu se despliegue */
 .menu-navigation.active{
     transform: translateX(0);
