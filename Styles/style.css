@@ -19,7 +19,6 @@ body{
 
 header{
     height: 100vh; /* Para que el header ocupe el 100% del alto de la pantalla */
-    background: #b69faf;
     background-image: url(/images/fondo.png);
     background-size: cover; /* Para que la imagen se ajuste al tamaño del contenedor */
     background-position: center; /* Para que la imagen se centre */
@@ -258,18 +257,19 @@ width: 100%;
     margin-bottom: 20px;
     color: rgb(47, 43, 43);
 }
+
 label {
     font-weight: bold;
     margin-bottom: 5px;
-  }
+}
 
-input,
-textarea {
+input, textarea {
     border: 1px solid #ccc;
     padding: 10px;
     width: 100%;
 }
 
+/*Zona del mensaje más grande */
 textarea {
 height: 150px;
 }
@@ -281,11 +281,10 @@ height: 150px;
     border: none;
     cursor: pointer;
     margin-top: 20px;
-    transition: all 0.3s ease;
 }
 
 .btn-submit:hover {
-background-color: #2980b9;
+background-color: #45ac8c;
 }
 /* ESTILOS PARA EL FOOTER */
 .footer {
@@ -312,6 +311,12 @@ background-color: #2980b9;
     padding: 5px;
 
 }
+
+/*Agrego una línea entre cada sección*/
+section {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+  }
 
 
 /* MEDIAS QUERYS */
