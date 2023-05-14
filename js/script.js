@@ -20,3 +20,14 @@ btnMenu.onclick = function () {
 }
 
 
+// Mensaje para cuadno se envía el formulario
+
+// Primero creamos una constante que llame a la clase del botón
+const btnForm = document.querySelector('.btn-submit');
+
+//Mensaje
+const mensaje = 'Gracias por tu mensaje, nos ayudará a mejorar nuestro servicio.'
+//Creamos una función para que cada ves que punses al botón se muestre el mensaje
+btnForm.onclick = function () {
+    alert(mensaje)
+}
