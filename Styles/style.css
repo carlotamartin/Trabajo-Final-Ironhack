@@ -97,7 +97,7 @@ header{
 }
 
 .subtitulo{
-    font-size: 5em;
+    font-size: 3rem;
     text-align: center;
     font-weight: 700;
     margin-bottom: 20px;
@@ -174,11 +174,11 @@ header{
 .agregar-imagen{
     width: 60%;
     border-radius: 20%;
-    transform: scale(0); /* Para que la imagen no se vea */
+    transform: scale(1); /* Para que la imagen no se vea */
     transition: all 0.3s ease-in-out; /* Para que la transición sea más suave */
 }
 .showImage{
-    transform: scale(1); /* Para que la imagen se agrande */
+    transform: scale(0); /* Para que la imagen se agrande */
 }
 
 .close{
@@ -213,8 +213,7 @@ header{
     display: inline-block;
     margin-top: 20px;
     width: 100%;
-    font-size: 1.5em;
-    font-weight: 700;
+    font-size: 1.3rem;
 }
 
 /* ESTILOS PARA EL FOOTER */
@@ -263,6 +262,12 @@ header{
         padding: 30px;
     }
 
+    .subtitulo{
+        font-size: 2rem;
+        margin: 20px;
+    }
+
+
     .menu-navigation a{
         font-size: 1.2em;
     }
@@ -272,7 +277,7 @@ header{
     }
 
     .contenedor-servicio img{
-        width: 80%;
+        width: 10%;
     }
 
     .checklist-servicio{
@@ -284,6 +289,10 @@ header{
         justify-content: center;
         align-items: center;
         width: 100%;
+    }
+
+    .agregar-imagen{
+        width: 80%;
     }
 
     .img-galeria{
@@ -313,6 +322,11 @@ header{
         flex-direction: column;
     }
 
+    .subtitulo{
+        font-size: 2.5rem;
+        margin: 20px;
+    }
+
     .titulo{
         font-size: 2em;
     }
@@ -326,7 +340,7 @@ header{
     }
 
     .contenedor-servicio img{
-        width: 80%;
+        width: 40%;
     }
 
     .checklist-servicio{
@@ -347,6 +361,10 @@ header{
 
     .cont-expert{
         width: 80%;
+    }
+
+    .cont-expert img{
+        width: 40%;
     }
 
     .social-media{
