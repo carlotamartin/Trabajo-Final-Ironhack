@@ -17,6 +17,6 @@ btnMenu.onclick = function () {
             menu.setAttribute('class', 'menu-navigation')
         }
     }
-
-
 }
+
+
