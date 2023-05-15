@@ -373,11 +373,21 @@ background-color: #45ac8c;
 }
 
 /*Agrego una línea entre cada sección*/
-section {
+.services contenedor, .contact-form {
     border-bottom: 1px solid #ccc;
     padding-bottom: 30px;
-  }
+}
 
+
+/* ANIMACIONES */
+#reloj {
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #eee;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
 
 /* MEDIAS QUERYS */
 

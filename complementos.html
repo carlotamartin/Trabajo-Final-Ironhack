@@ -23,30 +23,9 @@
         </header>
         <main>
             <section class="services contenedor" id = 'servicio'>
-                <h2 class="subtitulo">Nuestros servicios</h2>
+                <h2 class="subtitulo">Complementos en casa</h2>
                 <div class="contenedor-servicio">
-                    <img src="images/shop.svg" alt="" >
-                    <div class="checklist-servicio">
-                        <div class="service">
-                            <h3 class = n-services><span class = 'number'>1</span>Ropa</h3>
-                            <p>Nuestro sitio web de moda se enfoca en brindar información actualizada sobre las últimas tendencias
-                                de moda en ropa para el verano.
-                                Desde trajes de baño y ropa ligera hasta atuendos más elegantes para ocasiones especiales,
-                                nos aseguramos de mantener a nuestros lectores informados sobre lo que está de moda.</p>
-                        </div>
-                        <div class="service">
-                            <h3 class = n-services><span class = 'number'>2</span>Zapatos</h3>
-                            <p>Además de las tendencias de ropa, también cubrimos las tendencias de zapatos para el verano.
-                                Desde sandalias y zapatillas deportivas hasta zapatos de tacón elegantes,
-                                nuestros expertos en moda brindan información detallada sobre lo que está en tendencia en cuanto a calzado./p>
-                        </div>
-                        <div class="service">
-                            <h3 class = n-services><span class = 'number'>3</span>Accesorios</h3>
-                            <p>No podemos olvidar los accesorios, ya que también forman parte importante de cualquier atuendo de verano.
-                                Desde sombreros y gafas de sol hasta bolsos y joyas, nuestro sitio web también
-                                ofrece información detallada sobre las tendencias de accesorios de verano que complementarán tus looks de moda.</p>
-                        </div>
-                    </div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/gprq3HQMByo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </section>
 
@@ -67,49 +46,23 @@
                 <img src="images/cross.svg" alt="" class="close">
                 <img src="" alt="" class="agregar-imagen">
             </div>
-            <section class="services-contenedor" id="encuesta">
-                <form class="contact-form">
-                    <h2 class="subtitulo">Encuesta de personalidad en función de los complementos</h2>
-                    <h3 class="n-expert">Selecciona los complementos que más utilizas:</h3>
+            <section class="contenedor" id="expertos">
+                <h2 class="subtitulo"> Expertos en:</h2>
+                <section class="experts">
                     <div class="cont-expert">
-                        <label for="collares">Collares</label>
-                        <input type="checkbox" id="collares" name="complementos" value="collares">
+                        <img src="images/shop.svg" alt="" class = 'img-expert'>
+                        <h3 class="n-expert">Experts in fashion's shop</h3>
                     </div>
                     <div class="cont-expert">
-                        <label for="pulseras">Pulseras</label>
-                        <input type="checkbox" id="pulseras" name="complementos" value="pulseras">
+                        <img src="images/idea.svg" alt="" class = 'img-expert'>
+                        <h3 class="n-expert">Experts in finding your perfect outfit</h3>
                     </div>
                     <div class="cont-expert">
-                        <label for="anillos">Anillos</label>
-                        <input type="checkbox" id="anillos" name="complementos" value="anillos">
+                        <img src="images/face.svg" alt="" class = 'img-expert'>
+                        <h3 class="n-expert">Experts in you</h3>
                     </div>
-                    <div class="cont-expert">
-                        <label for="aretes">Aretes</label>
-                        <input type="checkbox" id="aretes" name="complementos" value="aretes">
-                    </div>
-                    <div class="cont-expert">
-                        <label for="sombreros">Sombreros</label>
-                        <input type="checkbox" id="sombreros" name="complementos" value="sombreros">
-                    </div>
-                    <h3 class="n-expert">Selecciona tu color favorito:</h3>
-                    <div class="cont-expert">
-                        <label for="rojo">Rojo</label>
-                        <input type="radio" id="rojo" name="color" value="rojo">
-                    </div>
-                    <div class="cont-expert">
-                        <label for="azul">Azul</label>
-                        <input type="radio" id="azul" name="color" value="azul">
-                    </div>
-                    <div class="cont-expert">
-                        <label for="verde">Verde</label>
-                        <input type="radio" id="verde" name="color" value="verde">
-                    </div>
-                    <div class="cont-expert">
-                        <label for="amarillo">Amarillo</label>
-                        <input type="radio" id="amarillo" name="color" value="amarillo">
-                    </div>
-                    <button type="submit">Enviar</button>
-                </form>
+                    <div id="reloj"></div>
+                </section>
             </section>
         </main>
         <footer class="footer">
@@ -124,6 +77,6 @@
             </div>
         </footer>
         <script src="js/script.js"></script>
-        <script src="js/lightbox.js"></script>
+        <script src="js/slide.js"></script>
     </body>
 </html>

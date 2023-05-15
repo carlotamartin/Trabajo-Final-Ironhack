@@ -19,41 +19,7 @@ btnMenu.onclick = function () {
     }
 }
 
-
-
-//TERCER DOM
-//Vamos a hacer un slideshow con las imágenes
-
-//Seleccionamos las imágenes
-const imagenes = document.querySelectorAll('.img-galeria');
-const imagenLight = document.querySelector('.agregar-imagen');
-const contenedorLight = document.querySelector('.imagen-light');
-
-//Seleccionamos el botón de cerrar
-const cerrarLight = document.querySelector('.close');
-
-//Recorremos las imágenes
-imagenes.forEach(imagen => {
-    imagen.onclick = function () {
-        // Cuando hagamos click en la imagen se mostrará
-        aparecerImagen(imagen.getAttribute('src'));
-    }
-})
-
-//Creamos una función para que al hacer click en la imagen se cierre
-contenedorLight.onclick = function () {
-    contenedorLight.setAttribute('class', 'imagen-light');
-    imagenLight.setAttribute('class', 'agregar-imagen');
-}
-
-//Creamos una función para que aparezca la imagen
-const aparecerImagen = (imagen) => {
-    imagenLight.src = imagen;
-    contenedorLight.setAttribute('class', 'imagen-light show');
-    imagenLight.setAttribute('class', 'agregar-imagen showImage');
-
-}
-// Mensaje para cuadno se envía el formulario
+// Mensaje para cuando se envía el formulario
 
 // Primero creamos una constante que llame a la clase del botón
 const btnForm = document.querySelector('.btn-submit');
@@ -67,6 +33,7 @@ mensaje.innerHTML = 'Gracias por tu mensaje, nos ayudará a mejorar nuestro serv
 btnForm.onclick = function (event) {
     event.preventDefault(); //Evitamos que se vuelva a cargar la página
     //Comprobamos que funciona
+
     console.log(mensaje);
     //Añadimos el mensaje al formulario
     document.querySelector('#mensaje-enviado').appendChild(mensaje);
@@ -75,3 +42,10 @@ btnForm.onclick = function (event) {
     document.querySelector('#email').value = ' ';
     document.querySelector('#message').value = ' ';
 }
+
+
+
+
+
+//CUARTO DOM
+//Vamos a hacer con la otra encuesta
