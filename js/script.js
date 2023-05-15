@@ -44,6 +44,7 @@ imagenes.forEach(imagen => {
 const aparecerImagen = (imagen) => {
     imagenLight.src = imagen;
     contenedorLight.setAttribute('class', 'imagen-light show');
+    imagenLight.setAttribute('class', 'agregar-imagen showImage');
 
 }
 // Mensaje para cuadno se envía el formulario
