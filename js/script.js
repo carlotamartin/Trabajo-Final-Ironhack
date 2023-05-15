@@ -40,8 +40,15 @@ btnForm.onclick = function () {
 
     //Limpiamos el formulario
     document.querySelector('#form').reset();
-    
+
 
 }
 
+
+
+//TERCER DOM
+//Vamos a hacer un slideshow con las imágenes
+
+//Seleccionamos las imágenes
+const imagenes = document.querySelectorAll('.img-slide');
 
