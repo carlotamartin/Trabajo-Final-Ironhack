@@ -40,6 +40,12 @@ imagenes.forEach(imagen => {
     }
 })
 
+//Creamos una función para que al hacer click en la imagen se cierre
+contenedorLight.onclick = function () {
+    contenedorLight.setAttribute('class', 'imagen-light');
+    imagenLight.setAttribute('class', 'agregar-imagen');
+}
+
 //Creamos una función para que aparezca la imagen
 const aparecerImagen = (imagen) => {
     imagenLight.src = imagen;
