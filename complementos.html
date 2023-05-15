@@ -67,22 +67,49 @@
                 <img src="images/cross.svg" alt="" class="close">
                 <img src="" alt="" class="agregar-imagen">
             </div>
-            <section class="contenedor" id="expertos">
-                <h2 class="subtitulo"> Expertos en:</h2>
-                <section class="experts">
+            <section class="services-contenedor" id="encuesta">
+                <form class="contact-form">
+                    <h2 class="subtitulo">Encuesta de personalidad en función de los complementos</h2>
+                    <h3 class="n-expert">Selecciona los complementos que más utilizas:</h3>
                     <div class="cont-expert">
-                        <img src="images/shop.svg" alt="" class = 'img-expert'>
-                        <h3 class="n-expert">Experts in fashion's shop</h3>
+                        <label for="collares">Collares</label>
+                        <input type="checkbox" id="collares" name="complementos" value="collares">
                     </div>
                     <div class="cont-expert">
-                        <img src="images/idea.svg" alt="" class = 'img-expert'>
-                        <h3 class="n-expert">Experts in finding your perfect outfit</h3>
+                        <label for="pulseras">Pulseras</label>
+                        <input type="checkbox" id="pulseras" name="complementos" value="pulseras">
                     </div>
                     <div class="cont-expert">
-                        <img src="images/face.svg" alt="" class = 'img-expert'>
-                        <h3 class="n-expert">Experts in you</h3>
+                        <label for="anillos">Anillos</label>
+                        <input type="checkbox" id="anillos" name="complementos" value="anillos">
                     </div>
-                </section>
+                    <div class="cont-expert">
+                        <label for="aretes">Aretes</label>
+                        <input type="checkbox" id="aretes" name="complementos" value="aretes">
+                    </div>
+                    <div class="cont-expert">
+                        <label for="sombreros">Sombreros</label>
+                        <input type="checkbox" id="sombreros" name="complementos" value="sombreros">
+                    </div>
+                    <h3 class="n-expert">Selecciona tu color favorito:</h3>
+                    <div class="cont-expert">
+                        <label for="rojo">Rojo</label>
+                        <input type="radio" id="rojo" name="color" value="rojo">
+                    </div>
+                    <div class="cont-expert">
+                        <label for="azul">Azul</label>
+                        <input type="radio" id="azul" name="color" value="azul">
+                    </div>
+                    <div class="cont-expert">
+                        <label for="verde">Verde</label>
+                        <input type="radio" id="verde" name="color" value="verde">
+                    </div>
+                    <div class="cont-expert">
+                        <label for="amarillo">Amarillo</label>
+                        <input type="radio" id="amarillo" name="color" value="amarillo">
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
             </section>
         </main>
         <footer class="footer">
