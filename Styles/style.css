@@ -63,7 +63,7 @@ header{
     right: 0;
     width: 20%; /* Para que el menú ocupe el 20% del ancho de la pantalla al desplegarse*/
     height: 100%;
-    background-image: linear-gradient(135deg, #8c7f88, #1d1014); /* Para que el fondo sea un degradado */
+    background-color:  #8c7f88; /* Para que el fondo sea un degradado */
     display: flex;
     justify-content: space-evenly; /* Para que los elementos se distribuyan equitativamente */
     align-items: center;
