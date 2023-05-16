@@ -7,7 +7,7 @@ function actualizarReloj() {
 
     // Formatea la hora como texto
     // Si es necesario, se antepone un 0 a la izquierda para que siempre haya dos dígitos en las horas, minutos y segundos, eso se hace con el método padStart()
-    const horaTexto = `${hora.toString().padStart(2, '0')}:${minutos.toString().padStart(2, '0')}:${segundos.toString().padStart(2, '0')}`;
+    const horaTexto = `${hora.toString()}:${minutos.toString()}:${segundos.toString()}`;
 
     // Actualizamos el contenido del elemento div con la hora
     document.getElementById("reloj").innerHTML = horaTexto;
