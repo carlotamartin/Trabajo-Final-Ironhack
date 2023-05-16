@@ -286,6 +286,15 @@ width: 100%;
     color: rgb(47, 43, 43);
 }
 
+.contact-form p{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 5px;
+    color: rgb(47, 43, 43);
+    padding: 20px;
+
+}
+
 label {
     font-weight: bold;
     margin-bottom: 5px;
@@ -296,6 +305,7 @@ input, textarea {
     padding: 10px;
     width: 100%;
 }
+
 
 /*Zona del mensaje más grande */
 textarea {
