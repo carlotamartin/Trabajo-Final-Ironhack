@@ -104,20 +104,7 @@ header{
     margin-top: 20px;
     color: white;
 }
-/* ANIMACIONES */
-#reloj {
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: space-evenly; /* Para que los elementos se distribuyan equitativamente */
-    align-items: center;
-    flex-direction: column;
-    margin-top: 20px;
-    color: white;
-    background-color: #333;
-    margin: 0 auto;
-    width: 20%;
-    border-radius: 0.5rem;
-}
+
 
 
 
@@ -371,7 +358,20 @@ background-color: #45ac8c;
     padding-bottom: 30px;
 }
 
-
+/* ANIMACIONES */
+#reloj {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly; /* Para que los elementos se distribuyan equitativamente */
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    color: white;
+    background-color: #333;
+    margin: 0 auto;
+    width: 20%;
+    border-radius: 0.5rem;
+}
 
 /* MEDIAS QUERYS */
 
@@ -422,7 +422,8 @@ background-color: #45ac8c;
     }
 
     .agregar-imagen{
-        width: 80%;
+        width: 60%;
+        height: 60%;
     }
 
     .img-galeria{
@@ -445,6 +446,10 @@ background-color: #45ac8c;
     /*para el formulario*/
     .contact-form{
         width: 80%;
+    }
+
+    #reloj{
+        width: 50%;
     }
 
 }
@@ -511,5 +516,9 @@ background-color: #45ac8c;
     /*para el formulario*/
     .contact-form{
         width: 80%;
+    }
+
+    #reloj{
+        width: 30%;
     }
 }

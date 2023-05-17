@@ -5,20 +5,9 @@ function actualizarReloj() {
     const minutos = fecha.getMinutes();
     const segundos = fecha.getSeconds();
 
-    //Añadimos un 0 a la izquierda a los números menores de 10
-    if (hora < 10) {
-        hora = "0" + hora;
-    }
-    if (minutos < 10) {
-        minutos = "0" + minutos;
-    }
-    if (segundos < 10) {
-        segundos = "0" + segundos;
-    }
-
     // Formatea la hora como texto
     // Si es necesario, se antepone un 0 a la izquierda para que siempre haya dos dígitos en las horas, minutos y segundos, eso se hace con el método padStart()
-    const horaTexto = `${hora.toString()}:${minutos.toString()}:${segundos.toString()}`;
+    const horaTexto = `${hora.toString().padStart(2, '0')}:${minutos.toString().padStart(2, '0')}:${segundos.toString().padStart(2, '0')}`;
 
     // Actualizamos el contenido del elemento div con la hora
     document.getElementById("reloj").innerHTML = horaTexto;
